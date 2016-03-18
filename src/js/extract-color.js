@@ -1,3 +1,5 @@
+(function() {
+
 var sampleImage = document.getElementById('sample');
 
 RGBaster.colors(sampleImage, {
@@ -10,3 +12,5 @@ RGBaster.colors(sampleImage, {
     $('.js-color').css({backgroundColor:payload.dominant});
   }
 });
+
+})();
